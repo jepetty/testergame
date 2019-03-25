@@ -6,6 +6,7 @@ public class App
     {
         Interactive block = new GameObject(10,10);
         block.interact();
+        System.out.println("I've interacted with one object");
         
         Interactive dialog = new Dialog();
         dialog.interact();
